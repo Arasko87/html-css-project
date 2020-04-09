@@ -1,21 +1,8 @@
 #main {
-	font-family: serif;
+
 	text-align: center;
 	background-color: silver;
-	border-style: solid;
-	border-width: 3px;
-	border-color: rgb(22, 77, 100);
-	border-radius: 9px;
-	
-}
 
-
-a {
-  display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  transition-duration: 0.2s;
 }
 
 #greeting {
@@ -27,69 +14,107 @@ a {
 #header-img {
 	margin-bottom: 7px;
 	background-color: #EFEBE9;
-	border-radius:45%;
-  margin-left:2%;
-   border: 2px groove gray;
+	border-radius:3%;
+  border: 2px groove gray;
 }
 
-.himg{
-   width:350px;
-   height:230px;
+.img{
+   width:250px;
+   height:130px;
 }
+.img{
+  align-self: center;
+}
+.aside-img{
+  width:250px;
+  height:130px;
+  border-radius: 23px;
+
+}
+article:first-child{
+color: #000;
+}
+
+
+.website-content{
+display: flex;
+
+}
+
 
 .paraTest1{
 	font-family:Trebuchet MS, Helvetica, sans-serif ;
-	background-color: lightgrey;
-	width:50%;
-    border: 2px groove gray;
-    border-radius:2%;
-	padding:3% 10% 3% 10%;
-	padding-bottom:3%;
-	margin-left:16%;
-	text-align: center;
-	
-}
-article:first-child{
-  background-color: crimson;
-}
-
-
-.button {
-  background-color: lightsteelblue;
-  color: black; 
-  border: 2px solid steelblue;
-  padding:1% 2%;
+  text-align: left;
   border-radius:2%;
-  transition-duration: 0.2s;
-  border-radius:8px;
-  margin:0% 35% 0% 35%;
+  letter-spacing: 1px;
+  max-width: 860px;
+  padding: 10px;
+}
+
+/*flex box */
+
+.container1 {
+
+  display:flex; 
+  justify-content: space-around;
+
+}
+
+.box{
   
+  align-items: stretch;
+  margin: 10px;
+  border: 3px rgba(7, 14, 9, 0.644) solid;
+  border-radius: 2%;
+  background-color: rosybrown;
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+
+  }
+
+.container-aside{
+
+  display:flex; 
+  max-width: 20%;
+  padding: 10px;
+ 
+
+
 
 }
-
-.button:hover {
-  background-color: lightslategray;
-  color: white;
+.asidebox{
+  color: brown;
+  align-self: center;
+ 
 }
 
-
-
-footer {
-background-color: rgb(64, 64, 64);
-padding: 5px;
-text-align: center;
-color: rgb(64, 64, 64);
+footer{
+  background-color: rgb(64, 64, 64);
+  padding-bottom: 2%;
+  padding-top: 2%;
+  width: 100%;
 }
 
+.container-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content: center;
+  width: 100%;
+
+
+}
 .footernav{
-text-decoration: none;
-margin-left:40%;
-margin-right:42%;
-color:rgb(10, 5, 4);
-font-size:27px;
-text-align: center;
-
+  color:black;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-decoration: none;
+  padding:20px 15px;
+  transition:all 0.5s;
 }
+
 .footernav:hover {
-color: white;
+color: wheat;
 }
